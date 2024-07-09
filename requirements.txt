@@ -1,0 +1,11 @@
+#pandasai==1.5.19
+pandasai== 2.2.7
+matplotlib~=3.7.1
+streamlit==1.29.0
+scipy
+#beautifulsoup4
+pandas
+scikit-learn==1.2.2
+seaborn
+statsmodels
+langchain_community
