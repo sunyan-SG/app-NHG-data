@@ -24,7 +24,7 @@ st.title("Chat with Your Data (NHG)")
 st.sidebar.markdown(
     """
     ### Instructions:
-    1. Click 'Process' to upload data:
+    1. Click 'Load Data' to upload data:
 
     The AI agent has connected to 2 default datasets for testing purposes.
 
@@ -38,7 +38,7 @@ st.sidebar.markdown(
     If the error persists, reload the webpage and try again. 
 
     ### Sample questions to help you start:
-    1. summarize all data columns in the data
+    1. summarize all data columns
     2. generate a new variable Age_at_visit to each visit and then show top 20 rows
     3. calculate average patient age at visit by hospital
     4. bar plot number of total visit by visit type with hospital as color side by side 
@@ -46,7 +46,7 @@ st.sidebar.markdown(
     6. calculate the correlation between LOS and patient age at visit and the p-value 
     7. do a chi-square test between actual risk of readmission and visit hospital and show me the detailed results in a table 
     8. do a logistic regression with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, show me all B coefficients, odds ration and their confidence interval and p value
-    9. build a prediction model using Gradient Boosting algorithm with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, and add the predicted risk of readmission for each visit
+    9. build a prediction model using Gradient Boosting algorithm with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, add the predicted risk of readmission for each visit, and then show the top 10 rows
     10. plot the ROC based on the actual risk and the predicted risks of readmission with confidence interval
 
     """
@@ -93,7 +93,7 @@ with st.sidebar:
     #     accept_multiple_files=True
     # )
 
-    if st.button("Process"):
+    if st.button("Load Data"):
         df1 = pd.read_csv("data1.csv")
         df2 = pd.read_csv("data2.csv")
         df = pd.DataFrame(df1)
