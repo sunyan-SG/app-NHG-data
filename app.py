@@ -39,15 +39,14 @@ st.sidebar.markdown(
 
     ### Sample questions to help you start:
     1. calculate total number of visits by hospital
-    2. generate a new variable Age_at_visit to each visit and then show top 20 rows
-    3. calculate average patient age at visit by hospital
-    4. bar plot number of total visit by visit type with hospital as color side by side 
-    5. line plot average LOS by visit day of week by gender
-    6. calculate the correlation between LOS and patient age at visit and the p-value 
-    7. do a chi-square test between actual risk of readmission and visit hospital and show me the detailed results in a table 
-    8. do a logistic regression with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, show me all B coefficients, odds ration and their confidence interval and p value
-    9. build a prediction model using Gradient Boosting algorithm with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, add the predicted risk of readmission for each visit, and then show the top 10 rows
-    10. plot the ROC based on At_High_Risk_Readmission and the predicted risk of readmission with confidence interval
+    2. calculate average patient age at visit by hospital
+    3. bar plot number of total visit by visit type with hospital as color side by side 
+    4. line plot average LOS by visit day of week by gender
+    5. calculate the correlation between LOS and patient age at visit and the p-value 
+    6. do a chi-square test between actual risk of readmission and visit hospital and show me the detailed results in a table 
+    7. do a logistic regression with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, show me all B coefficients, odds ration and their confidence interval and p value
+    8. build a prediction model using Gradient Boosting algorithm with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, add the predicted risk of readmission for each visit, and then show the top 10 rows
+    9. plot the ROC based on At_High_Risk_Readmission and the predicted risk of readmission with confidence interval
 
     """
 )
