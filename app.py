@@ -45,9 +45,8 @@ st.sidebar.markdown(
     5. calculate the correlation between LOS and patient age at visit and the p-value 
     6. do a chi-square test between actual risk of readmission and visit hospital and show me the detailed results in a table 
     7. do a logistic regression with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, show me all B coefficients, odds ration and their confidence interval and p value
-    8. build a prediction model using Gradient Boosting algorithm with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, add the predicted risk of readmission for each visit, and then show the top 10 rows
-    9. plot the ROC based on At_High_Risk_Readmission and the predicted risk of readmission with confidence interval
-
+    8. build a prediction model using logistic regression algorithm with At_High_Risk_Readmission as y; visit type, visit day of week, age at visit as Xs, add the predicted risk of readmission for each visit, and then show the top 10 rows
+    
     """
 )
 
